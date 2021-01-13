@@ -1,12 +1,13 @@
 {
-  "name": "vue-lib-test",
-  "version": "0.1.0",
-  "private": true,
+  "name": "created-by-vuecli",
+  "version": "1.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "./src/index.ts",
+  "types": "./types/index.d.ts",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
